@@ -2,6 +2,8 @@
 
 import React, { Component } from "react";
 
+//test comment
+
 class TestCompTwo extends Component {
   constructor(props) {
     super(props);
