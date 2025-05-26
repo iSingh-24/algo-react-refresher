@@ -1,12 +1,10 @@
 import React from "react";
-import TestComp from "./TestComp/TestComp";
-import TestCompTwo from "./TestCompTwo/TestCompTwo";
+import User from "./Components/User/User";
 
 export const App = () => {
   return (
     <div>
-      <TestComp />
-      <TestCompTwo />
+      <User />
     </div>
   );
 };
