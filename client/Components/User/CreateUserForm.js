@@ -29,8 +29,6 @@ const CreateUserForm = () => {
   const [user, setUser] = useState({ firstName: "Kobe", lastName: "Bryant" });
   const { firstName, lastName } = user;
 
-  console.log(user, "here is current user");
-
   return <div>{`The current user is ${firstName} ${lastName}`}</div>;
 };
 
