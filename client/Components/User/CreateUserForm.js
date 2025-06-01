@@ -1,16 +1,21 @@
 import React, { Component } from "react";
 
-// const CreateUserForm = () =>{
-
-// }
-
 class CreateUserForm extends Component {
   constructor(props) {
     super(props);
+
+    this.state = {
+      firstName: "Kobe",
+      lastName: "Bryant",
+    };
   }
 
+  PrintUserName = () => {
+    return `${this.state.firstName} ${this.state.lastName}`;
+  };
+
   render() {
-    return <div>Create User Form Component</div>;
+    return <div>{`Hello my name is ${this.PrintUserName()}`}</div>;
   }
 }
 
