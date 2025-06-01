@@ -1,12 +1,14 @@
 import React from "react";
-import TestComp from "./TestComp/TestComp";
-import TestCompTwo from "./TestCompTwo/TestCompTwo";
+import User from "./Components/User/User";
+import CreateUserForm from "./Components/User/CreateUserForm";
+import Item from "./Components/Item/Item";
 
 export const App = () => {
   return (
     <div>
-      <TestComp />
-      <TestCompTwo />
+      <User />
+      <CreateUserForm />
+      <Item />
     </div>
   );
 };
